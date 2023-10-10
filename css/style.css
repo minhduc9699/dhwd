@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #f59b42;
 }
 
 .fh5co-nav {
@@ -726,16 +726,16 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-gallery-list li.one-third {
-  width: 32.3%;
+  width: 45%;
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li.one-third {
-    width: 49%;
+    width: 45%;
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-gallery-list li.one-third {
-    width: 100%;
+    width: 45%;
   }
 }
 
@@ -942,12 +942,12 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
-  margin: 0 4px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 12px;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  border-radius: 10%;
   position: relative;
   animation: pulse 1s ease infinite;
 }
@@ -974,19 +974,19 @@ form label {
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: white;
+  color: black;
   /* amounts and words */
 }
 
 .simply-countdown > .simply-section .simply-amount {
+  line-height: 25px;
   font-size: 30px;
   /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
   text-transform: uppercase;
-  font-size: 12px;
   /* words */
 }
 
